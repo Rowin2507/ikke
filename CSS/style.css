@@ -1,0 +1,1256 @@
+/*TABLET/ MOBIELE RESOLUTIE*/
+@media (min-width:100px) {
+.fa-bars {margin-top: 7px;}
+body {
+  font-family: sans-serif;
+  color: black;
+  margin: 0 auto;
+  width:100%;
+}
+.sidenav {height: 100%;width: 0;position: fixed;z-index: 9;top: 0;left: 0;background: rgba(0,0,0,0.9);overflow-x: hidden;transition: 0.5s;padding-top: 60px; visibility: visible;}
+.sidenav a {padding: 8px 8px 8px 32px;text-decoration: none;font-size: 25px;color: white;display: block;transition: 0.5s;}
+.sidenav a:hover, .offcanvas a:focus{color: #EB2328;}
+.sidenav .closebtn {position: absolute;top: 0;right: 15px;font-size: 36px;margin-left: 50px;}
+header {
+  border: none;
+  width: 100%;
+  background: #EB2328;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  position: fixed;
+  top: 0px;
+  z-index: 8;
+}
+ul.topnav li.inloggen {float: right; background-color: black; transition: 0.4s;}
+ul.topnav:hover li.inloggen:hover {color: #EB2328}
+li {list-style: none;}
+li.inloggen_sidenav {margin-top: 30px;}
+input[type=text1] {
+  width: 130px;
+  height: 3em;
+  box-sizing: border-box;
+  border: none;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  padding: 12px 10px 12px 30px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  float: right;
+  outline: none;
+}
+input[type=text1]:focus {width: 60%;}
+input:focus {outline: none;
+    box-shadow: 0px 0px 5px #EB2328;
+    border-radius:0;}
+.inloggen_form {
+  margin: 0 auto;
+  padding-top: 25px;
+  width: 95%;
+  font-weight: bold;
+  line-height: 40px;
+}
+.account_bg {
+  background-color: #E6E6E6;
+  width: 100%;
+  margin-top: -135px;
+  margin-bottom: 155px;
+  line-height: 40px;
+  font-size: 15px;
+}
+.account_aanmaken {
+  font-size: 16px;
+  text-align: right;
+  margin: 0 auto;
+  width: 100%;
+  border-top:1px solid black;
+}
+.account_aanmaken:hover {
+  text-decoration: underline;
+}
+.inloggen_uitbreiden_form {
+    width:100%;
+}
+.inloggen_uitbreiden_form div {
+    width:100%;
+    background-color: #E6E6E6;
+}
+.inloggen_uitbreiden_form .account_aanmaken {
+    margin: 0 auto;
+    width: 95%;
+    cursor: pointer;
+}
+.inloggen_uitbreiden_form .account_form {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: none;
+    height: 550px;
+    font-size: 20px;
+}
+input[type=email] {
+    width: 100%;
+    height: 3em;
+    box-sizing: border-box;
+    border: none;
+    font-size: 16px;
+    color: black;
+    padding: 12px 10px 12px 20px;
+    outline: none;
+}
+input[type=password] {
+    width: 100%;
+    height: 3em;
+    box-sizing: border-box;
+    border: none;
+    font-size: 16px;
+    color: black;
+    padding: 12px 10px 12px 20px;
+    outline: none;
+}
+input[type=checkbox] {
+  width: 20px;
+  height: 20px;
+  vertical-align:middle;
+  position:relative;
+}
+input[type=submit] {
+    width: 100%;
+    height: 3em;
+    box-sizing: border-box;
+    border: none;
+    font-size: 16px;
+    background-color: #EB2328;
+    color: white;
+    padding: 12px 5px 12px 5px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+input[type=submit]:hover{  background-color: black;}
+.logo img {
+  visibility: hidden;
+  position: fixed;
+}
+.logo_rechts img {
+  visibility: hidden;
+  position: fixed;
+}
+.header_image {
+  width: 100%;
+  height: 220px;
+  background: url("https://s5.postimg.org/byytrxnw7/Header_image_stretch.png");
+  margin-bottom: -15px;
+  background-position: 100% 0%;
+}
+.header_stretched {
+  width: 100%;
+  height: 200px;
+  background: url("https://s5.postimg.org/byytrxnw7/Header_image_stretch.png");
+  background-position: 100% 0%;
+}
+.wrap {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.body_wrap {
+  width: 95%;
+  margin: 0 auto;
+  padding: 1em 5px;
+}
+.body_wrap_pagina {
+  padding: 1em 5px;
+  width: 95%;
+  margin: 0 auto;
+}
+.collage {text-align: center;}
+#thumbnails {width: 100%; padding-bottom: 15px;}
+#imageHolder {width: 100%; height: auto; margin-bottom: 15px; margin-top: 15px; box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.5);}
+#thumbnails img {border: 4px solid #EB2328; border-radius: 15px; margin: 4px 6px; width: 44%;}
+#thumbnails img:hover {box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.5); border: 4px solid black; transition: 0.6s; cursor: pointer;}
+ .hvr-sweep-to-right{
+   vertical-align: middle;
+   -webkit-transform: perspective(1px) translateZ(0);
+   transform: perspective(1px) translateZ(0);
+   transition: 0.5s;
+   background-color: #EB2328;
+   line-height: 44px;
+   display: inline-block;
+   float: none;
+   text-align: center;
+   width: 130px;
+   color: white;
+   font-weight: bold;
+   cursor: pointer;
+   text-decoration: none;
+   margin-top: 7.5px;
+   margin-bottom: 7.5px;
+ }
+ .hvr-sweep-to-right:before, .hvr-sweep-to-right1:before{
+   content: "";
+   position: absolute;
+   z-index: -1;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background: black;
+   -webkit-transform: scaleX(0);
+   transform: scaleX(0);
+   -webkit-transform-origin: 0 50%;
+   transform-origin: 0 50%;
+   transition: 0.5s;
+ }
+ .hvr-sweep-to-right:hover{color: white;}
+ .hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:active:before {-webkit-transform: scaleX(1);transform: scaleX(1);}
+ .hvr-sweep-to-right1{
+   vertical-align: middle;
+   -webkit-transform: perspective(1px) translateZ(0);
+   transform: perspective(1px) translateZ(0);
+   transition: 0.5s;
+   background-color: #EB2328;
+   line-height: 44px;
+   display: inline-block;
+   float: none;
+   text-align: center;
+   width: 50%;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   color: white;
+   font-weight: bold;
+   cursor: pointer;
+   text-decoration: none;
+   margin-top: 7.5px;
+   margin-bottom: 30px;
+   z-index: -1;
+ }
+ .hvr-sweep-to-right1:hover{color: white; box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.5); z-index: -1;}
+ .hvr-sweep-to-right1:hover:before, .hvr-sweep-to-right1:active:before {-webkit-transform: scaleX(1);transform: scaleX(1); z-index: -1;}
+
+ .werkjaren1{background-color: #E6E6E6;}
+ .werkjaren3 {margin-bottom: 50px; background-color: #E6E6E6;}
+ .werkjaren_wrap {width: 95%; padding-top: 16px; padding-bottom: 30px; margin: 0 auto;}
+ .text_periodes{display: inline-block; margin-left: 15px; font-weight: bold;}
+ .persona {
+   background-color: #E6E6E6;
+   margin-top: 30px;
+   margin-bottom: 40px;
+   height: 775px;
+ }
+ .persona_wrap {
+   width: 100%;
+   height: 320px;
+   padding-top: 1px;
+   margin: 0 auto;
+   color: black;
+   font-size: 20px;
+   text-align: center;
+ }
+ .cirkel_foto {
+   height: 200px;
+   width: 200px;
+   border-radius: 200px;
+   transition: 0.5s;
+   box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.5);
+ }
+ .cirkel {
+   height: 65%;
+   width: 65%;
+   border-radius: 250px;
+   background-color: #E6E6E6;
+   margin: 0 auto;
+   margin-top: 15px;
+   transition: 0.5s;
+ }
+ .kalender {
+   visibility: hidden;
+   position: fixed;
+ }
+ .School_Piramide {
+   width: 100%;
+   background-repeat: no-repeat;
+   background-size: 100%;
+   overflow: visible;
+   background: url("https://s5.postimg.org/ehojo3gvr/Piramide_School.jpg") no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   height: 500px;
+   text-align: center;
+   font-size: 22px;
+   color: black;
+ }
+ .School_SMC {
+   width: 100%;
+   background-repeat: no-repeat;
+   background-size: 100%;
+   overflow: visible;
+   background: url("https://s5.postimg.org/rzvg0dt13/SMCSchool.jpg") no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   height: 500px;
+   text-align: center;
+   font-size: 22px;
+   color: black;
+ }
+ .School_Compaen {
+   width: 100%;
+   background-repeat: no-repeat;
+   background-size: 100%;
+   overflow: visible;
+   background: url("https://s5.postimg.org/na5ibs20n/Compaen_School.jpg") no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   height: 500px;
+   text-align: center;
+   font-size: 22px;
+   color: black;
+ }
+ .School_MA {
+   width: 100%;
+   background-repeat: no-repeat;
+   background-size: 100%;
+   overflow: visible;
+   background: url("https://s5.postimg.org/g87kpkyev/Ma_School.jpg") no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   height: 500px;
+   text-align: center;
+   font-size: 22px;
+   color: black;
+ }
+ .School_Piramide img {margin-top: 75px; box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.9);}
+ .School_SMC img {margin-top: 75px; box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.9);}
+ .School_Compaen img {margin-top: 75px; box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.9);}
+ .School_MA img {margin-top: 75px; box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.9);}
+ .school_cover1 {background: rgba(100, 177, 69, 0.7); height: 100%; transition: 1s;}
+ .school_cover2 {background: rgba(19, 177, 212, 0.7); height: 100%; transition: 1s;}
+ .school_cover3 {background: rgba(41, 80, 159, 0.7); height: 100%; transition: 1s;}
+ .school_cover4 {background: rgba(230, 32, 135, 0.7); height: 100%; transition: 1s;}
+ .school_cover1:hover, .school_cover2:hover, .school_cover3:hover, .school_cover4:hover {background: none; color: white;}
+.magister {
+  background-color: #E6E6E6;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  height: 300px;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 15px;
+}
+.login {
+  background-color: #E6E6E6;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  height: 380px;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 15px;
+}
+body {margin:0;}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #EB2328;
+}
+/*BURGER MENU*/
+ul.topnav li {float: left;}
+ul.topnav li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+ul.topnav li a:hover {background-color: black;}
+li a.active {background-color: black;}
+ul.topnav li.icon {display: none; color: white;}
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+footer {
+  background-color: black;
+  color: white;
+  padding: 1em;
+}
+.footer_content {
+  width: 100%;
+  padding-bottom: 21em;
+  margin: 0 auto;
+}
+.categorieën_side {float: left; width: 50%; height: 150px; display: block;}
+.validatie_side {float: left; width: 50%; height: 150px; display: block;}
+.sociaal_side {float: left; width: 50%; height: 100px; }
+.opleiding_side {float: left; width: 50%; height: 100px; }
+.logo_side {visibility: hidden; position: fixed;}
+ul.footer {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+  display: block;
+}
+ul.footer li a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.2s;
+}
+ul.footer li a:hover {color: #EB2328;}
+#copyright {
+  background-color: #EB2328;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+.scrollToTop{
+	width:35px;
+	height:auto;
+	top:89%;
+	right:30px;
+	position: fixed;
+}
+.images {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin: 3px;
+}
+.images_overig {
+  margin: 3px;
+}
+.images_bottem {
+  padding-bottom: 50px;
+  margin: 3px;
+}
+.Rowin {
+  width: auto;
+  height: 265px;
+  box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.5);
+  margin-right: 15px;
+  margin-bottom: 5px;
+  float: left;
+}
+#particles-js{
+  z-index: 1;
+  visibility: hidden;
+  position: fixed;
+}
+#copyright {
+  background-color: #EB2328;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+::-webkit-scrollbar
+{
+width: 12px;    /*HORIZONTALE SCROLLBAR*/
+height: 12px;   /*HORIZONTALE SCROLLBAR*/
+}
+::-webkit-scrollbar-track
+{
+background: rgba(0, 0, 0, 0.1);
+}
+::-webkit-scrollbar-thumb
+{
+background: #EB2328;
+}
+
+/*SCROLLTOTOP------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  .cd-top {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 70px;
+    right: 10px;
+    overflow: hidden;
+    background-size: contain;
+    text-indent: 100%;
+    white-space: nowrap;
+    background: url(../scroll_button40.png) no-repeat center 50%;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+    -moz-transition: opacity .3s 0s, visibility 0s .3s;
+    transition: opacity .3s 0s, visibility 0s .3s;
+  }
+  .cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+    -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+    -moz-transition: opacity .3s 0s, visibility 0s 0s;
+    transition: opacity .3s 0s, visibility 0s 0s;
+  }
+  .cd-top.cd-is-visible {visibility: visible; opacity: 1;}
+  @media only screen and (min-width: 680px) {
+    .cd-top {right: 20px;bottom: 60px;}
+  }
+  @media only screen and (min-width: 1150px) {
+    .cd-top {height: 60px; width: 60px; right: 30px; bottom: 70px;}
+  }
+
+/*HOOVER EFFECT IMAGE-------------------------------------------------------------------------------------------------------------------------------------------*/
+  .hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+  }
+  .hovereffect .overlay {
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+  	top: auto;
+  	bottom: 0;
+  	padding: 1em;
+  	height: 2.75em;
+  	background: #EB2328;
+  	color: #EB2328;
+  	-webkit-transition: -webkit-transform 0.35s;
+  	transition: transform 0.35s;
+  	-webkit-transform: translate3d(0,100%,0);
+  	transform: translate3d(0,100%,0);
+  }
+  .hovereffect img {
+      display: block;
+      position: relative;
+  	-webkit-transition: -webkit-transform 0.35s;
+  	transition: transform 0.35s;
+  }
+  .hovereffect:hover img {
+  -webkit-transform: translate3d(0,-10%,0);
+  	transform: translate3d(0,-10%,0);
+  }
+  .hovereffect h2 {
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.6);
+  	float: left;
+  	margin: 0px;
+  	display: inline-block;
+  }
+.images {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+.images_overig {
+  margin: 3px;
+}
+.images_bottem {
+  padding-bottom: 50px;
+  margin: 3px;
+}
+.img-responsive {width: 100%; height: auto;}
+.image1 {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 3.5px;
+  transition: 0.5s;
+}
+.image2 {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 3.5px;
+  transition: 0.5s;
+}
+.image3 {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 3.5px;
+  transition: 0.5s;
+}
+.image4 {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 3.5px;
+  transition: 0.5s;
+}
+.image5 {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 3.5px;
+  transition: 0.5s;
+}
+.image6 {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 3.5px;
+  transition: 0.5s;
+}
+.image7 {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 3.5px;
+  transition: 0.5s;
+}
+.image8 {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 3.5px;
+  transition: 0.5s;
+}
+.image9 {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 3.5px;
+  transition: 0.5s;
+}
+.hovereffect h2, .hovereffect p.icon-links a {
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0,200%,0);
+  transform: translate3d(0,200%,0);
+}
+  .hovereffect .overlay,
+  .hovereffect h2,
+  .hovereffect p.icon-links a {
+  	-webkit-transform: translate3d(0,0,0);
+  	transform: translate3d(0,0,0);
+  }
+  .hovereffect:hover p.icon-links a:nth-child(3) {
+  	-webkit-transition-delay: 0.1s;
+  	transition-delay: 0.1s;
+  }
+  .hovereffect:hover p.icon-links a:nth-child(2) {
+  	-webkit-transition-delay: 0.15s;
+  	transition-delay: 0.15s;
+  }
+  .hovereffect:hover p.icon-links a:first-child {
+  	-webkit-transition-delay: 0.2s;
+  	transition-delay: 0.2s;
+  }
+}
+
+/* TABLET/ LAPTOP RESOLUTIE--------------------------------------------------------------------------------------------------------------------------------------- */
+@media (min-width:680px) {
+ul.topnav li.inloggen {float: right; background-color: black;}
+ul.topnav:hover li.inloggen:hover {box-shadow: 0px 0px 16px 10px rgba(0,0,0,0.9);}
+.sidenav {visibility: hidden;}
+.collage {text-align: center;}
+#thumbnails {width: 100%; padding-bottom: 15px;}
+#imageHolder {width: 100%; height: auto; margin-bottom: 15px; margin-top: 15px; box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.5);}
+#thumbnails img {border: 4px solid #EB2328; border-radius: 15px; margin: 4px 6px; width: 22%;}
+#thumbnails img:hover {box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.5); border: 4px solid black; transition: 0.6s; cursor: pointer;}
+.footer_content {
+  width: 100%;
+  padding-bottom: 11em;
+  margin: 0 auto;
+}
+.categorieën_side {float: left; width: 25%; height: 150px; display: block;}
+.validatie_side {float: left; width: 25%; height: 150px; display: block;}
+.sociaal_side {float: left; width: 25%; height: 100px; }
+.opleiding_side {float: left; width: 25%; height: 100px; }
+.logo_side {visibility: hidden; position: fixed;}
+
+.text_periodes{visibility: hidden; transition: 0.5s; display: inline-block; opacity: 0; margin-left: 15px; font-weight: bold;}
+.periodes_wrap:hover .text_periodes{visibility: visible; opacity: 1;}
+
+.persona {
+  background-color: #E6E6E6;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  height: 325px;
+}
+.persona_wrap {
+  width: 100%;
+  height: 325px;
+  padding-top: 1px;
+  margin: 0 auto;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+.cirkel_foto {
+  height: 150px;
+  width: 150px;
+  border-radius: 150px;
+  float: left;
+  transition: 0.5s;
+  box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.5);
+}
+.cirkel {
+  height: 15%;
+  width: 15%;
+  border-radius: 250px;
+  background-color: #E6E6E6;
+  float: left;
+  margin: auto 9.1%;
+  margin-top: 15px;
+  transition: 0.5s;
+}
+.cirkel_foto:hover {
+  -webkit-transform:scale(1.05);
+  -moz-transform:scale(1.05);
+  -ms-transform:scale(1.05);
+  -o-transform:scale(1.05);
+   transform:scale(1.05);
+   box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.5);
+}
+.cirkel:hover {
+  -webkit-transform:scale(1.15);
+  -moz-transform:scale(1.15);
+  -ms-transform:scale(1.15);
+  -o-transform:scale(1.15);
+   transform:scale(1.15);
+}
+.hvr-sweep-to-right1{width: 350px;}
+.magister {
+  background-color: #E6E6E6;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 75px;
+  height: 300px;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 17px;
+}
+.login {
+  background-color: #E6E6E6;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 75px;
+  height: 400px;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 17px;
+}
+.inloggen_form {width: 70%;}
+.inloggen_uitbreiden_form .account_aanmaken {
+    margin: 0 auto;
+    width: 70%;
+    cursor: pointer;
+}
+.inloggen_uitbreiden_form .account_form {width: 70%;}
+.account_bg {
+  background-color: #E6E6E6;
+  width: 100%;
+  margin-left: 0px;
+  margin-top: -175px;
+  margin-bottom: 155px;
+  line-height: 40px;
+  font-size: 15px;
+}
+.werkjaren3 {margin-bottom: 75px;}
+.image1 {
+  width: 49.7%;
+  display: inline-block;
+  margin-bottom: 3.5px;
+  transition: 0.5s;
+}
+.image2 {
+  width: 49.7%;
+  display: inline-block;
+  margin-bottom: 3.5px;
+  transition: 0.5s;
+}
+.image3 {
+  width: 49.7%;
+  display: inline-block;
+  margin-bottom: 3.5px;
+  transition: 0.5s;
+}
+.image4 {
+  width: 49.7%;
+  display: inline-block;
+  margin-bottom: 3.5px;
+  transition: 0.5s;
+}
+.image5 {
+  width: 49.7%;
+  display: inline-block;
+  margin-bottom: 3.5px;
+  transition: 0.5s;
+}
+.image6 {
+  width: 49.7%;
+  display: inline-block;
+  margin-bottom: 3.5px;
+  transition: 0.5s;
+}
+.image7 {
+  width: 49.7%;
+  display: inline-block;
+  margin-bottom: 3.5px;
+  transition: 0.5s;
+}
+.image8 {
+  width: 49.7%;
+  display: inline-block;
+  margin-bottom: 3.5px;
+  transition: 0.5s;
+}
+.image9 {
+  width: 49.7%;
+  display: inline-block;
+  margin-bottom: 3.5px;
+  transition: 0.5s;
+}
+
+}
+
+/* DESKTOP/ LAPTOP RESOLUTIE--------------------------------------------------------------------------------------------------------------------------------------- */
+@media (min-width:1150px) {
+  body {
+    font-family: sans-serif;
+    color: black;
+    margin: 0 auto;
+    width:100%;
+  }
+  header {
+    border: none;
+    width: 100%;
+    background: #EB2328;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    position: fixed;
+    top: 130px;
+    z-index: 9;
+  }
+  ul.topnav li.inloggen {float: right; background-color: black;}
+  .logo {
+    width: 1150px;
+    margin: 4px auto;
+    text-align: left;
+  }
+  .logo_rechts {
+    float: left;
+    padding-left: 740px;
+  }
+  .logo img {
+    visibility: visible;
+    position: fixed;
+  }
+  .logo_rechts img {
+    visibility: visible;;
+    position: fixed;
+  }
+  .header_transparent {
+    height: 130px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    position: fixed;
+    top: 0px;
+    overflow: visible;
+    z-index: 8;
+  }
+  .header_image {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: visible;
+    background: url("https://s5.postimg.org/lgykrz9kn/Header.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 0;
+  }
+  .header_stretched {
+    width: 100%;
+    height: 300px;
+    background-position: 100% 0%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .wrap {
+    width: 1150px;
+    margin: 0 auto;
+  }
+  .body_wrap {
+    width: 1150px;
+    margin: 0 auto;
+  }
+  .body_wrap_pagina {
+    width: 1150px;
+    margin: 0 auto;
+  }
+  .collage {text-align: center;}
+  #thumbnails {width: 100%; padding-bottom: 15px;}
+  #imageHolder {width: 1150px; height: auto; margin-bottom: 25px; margin-top: 25px; box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.5);}
+  #thumbnails img {border: 4px solid #EB2328; border-radius: 15px; margin: 4px 6px; width: 171px; transition: 0.6s;}
+  #thumbnails img:hover {box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.5); border: 4px solid black; cursor: pointer;}
+  .persona {
+    background-color: #E6E6E6;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    height: 425px;
+  }
+  .persona_wrap {
+    width: 1150px;
+    height: 425px;
+    padding-top: 1px;
+    margin: 0 auto;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+  }
+  .cirkel_foto {
+    height: 250px;
+    width: 250px;
+    border-radius: 250px;
+    float: left;
+    transition: 0.5s;
+  }
+  .cirkel {
+    height: 250px;
+    width: 250px;
+    border-radius: 250px;
+    background-color: #E6E6E6;
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.5);
+    float: left;
+    margin: auto 66px ;
+    margin-top: 15px;
+    transition: 0.5s;
+  }
+  .School_Piramide img {margin-top: 100px; box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.9);}
+  .School_SMC img {margin-top: 100px; box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.9);}
+  .School_Compaen img {margin-top: 100px; box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.9);}
+  .School_MA img {margin-top: 100px; box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.9);}
+  .school_cover1 {background: rgba(100, 177, 69, 0.7); height: 100%; transition: 1s;}
+  .school_cover2 {background: rgba(19, 177, 212, 0.7); height: 100%; transition: 1s;}
+  .school_cover3 {background: rgba(41, 80, 159, 0.7); height: 100%; transition: 1s;}
+  .school_cover4 {background: rgba(230, 32, 135, 0.7); height: 100%; transition: 1s;}
+  .school_cover1:hover, .school_cover2:hover, .school_cover3:hover, .school_cover4:hover {background: none; color: white;}
+.werkjaren3 {margin-bottom: 100px;}
+.werkjaren_wrap {width: 1150px; padding-top: 16px; padding-bottom: 30px; margin: 0 auto;}
+.kalender {
+  visibility: visible;
+  position: relative;
+  height:auto;
+  width:267px;
+  float: right;
+  margin-top: 30px;
+}
+  .magister {height: 320px; font-size: 18px; margin-bottom: 100px;}
+  .login {height: 400px; font-size: 18px; margin-bottom: 100px;}
+  .inloggen_form {width: 500px;}
+  .inloggen_uitbreiden_form .account_aanmaken {
+      margin: 0 auto;
+      width: 500px;
+      cursor: pointer;
+  }
+  .inloggen_uitbreiden_form .account_form {width: 500px;}
+  .account_bg {
+    background-color: #E6E6E6;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: -198px;
+    margin-bottom: 155px;
+    line-height: 40px;
+    font-size: 15px;
+  }
+  ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #EB2328;
+    z-index: 10
+  }
+
+  ul.topnav li {float: left;}
+
+  ul.topnav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 17px;
+    z-index: 9
+  }
+
+  ul.topnav li a:hover {background-color: black;}
+  li a.active {background-color: black;}
+
+  ul.topnav li.icon {display: none;}
+
+  @media screen and (max-width:680px) {
+    ul.topnav li:not(:first-child) {display: none;}
+    ul.topnav li.icon {
+      float: right;
+      display: inline-block;
+    }
+  }
+
+  @media screen and (max-width:680px) {
+    ul.topnav.responsive {position: relative;}
+    ul.topnav.responsive li.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    ul.topnav.responsive li {
+      float: none;
+      display: inline;
+    }
+    ul.topnav.responsive li a {
+      display: block;
+      text-align: left;
+    }
+  }
+  footer {
+    background-color: black;
+    color: white;
+    padding-top: 1px;
+    bottom: 0;
+    position: static;
+  }
+  .footer_content {
+    width: 1150px;
+    position: relative;
+    bottom: 0;
+    margin: 0 auto;
+  }
+  .categorieën_side {float: left; width: 20%; display: block;}
+  .validatie_side {float: left; width: 20%; display: block;}
+  .sociaal_side {float: left; width: 20%; display: block;}
+  .opleiding_side {float: left; width: 20%; display: block;}
+  .logo_side {visibility: visible; position: inherit; float: left; width: 20%; display: block;}
+  #R_logo_footer {float: right; margin-top: 10px;}
+  ul.footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: inline-block;
+  }
+  ul.footer li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.2s;
+  }
+  ul.footer li a:hover {color: #EB2328;}
+
+/*HOOVER EFFECT IMAGE-------------------------------------------------------------------------------------------------------------------------------------------*/
+  .hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+  }
+  .hovereffect .overlay {
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+  	top: auto;
+  	bottom: 0;
+  	padding: 1em;
+  	height: 4.75em;
+  	background: #EB2328;
+  	color: #EB2328;
+  	-webkit-transition: -webkit-transform 0.35s;
+  	transition: transform 0.35s;
+  	-webkit-transform: translate3d(0,100%,0);
+  	transform: translate3d(0,100%,0);
+  }
+  .hovereffect img {
+      display: block;
+      position: relative;
+  	-webkit-transition: -webkit-transform 0.35s;
+  	transition: transform 0.35s;
+  }
+  .hovereffect:hover img {
+  -webkit-transform: translate3d(0,-10%,0);
+  	transform: translate3d(0,-10%,0);
+  }
+  .hovereffect h2 {
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.6);
+  	float: left;
+  	margin: 0px;
+  	display: inline-block;
+  }
+.images {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+.images_overig {
+  margin: 3px;
+}
+.images_bottem {
+  padding-bottom: 50px;
+  margin: 3px;
+}
+.image1 {
+  width: 378px;
+  display: inline-block;
+  margin-bottom: 3.5px;
+  transition: 0.5s;
+}
+.image2 {
+  width: 378px;
+  display: inline-block;
+  margin-left: 3.5px;
+  margin-right: 3.5px;
+  margin-bottom: 3.5px;
+  transition: 0.5s;
+}
+.image3 {
+  width: 378px;
+  display: inline-block;
+  margin-bottom: 3.5px;
+  transition: 0.5s;
+}
+.image4 {
+  width: 378px;
+  display: inline-block;
+  margin-bottom: 3.5px;
+  transition: 0.5s;
+}
+.image5 {
+  width: 378px;
+  display: inline-block;
+  margin-left: 3.5px;
+  margin-right: 3.5px;
+  margin-bottom: 3.5px;
+  transition: 0.5s;
+}
+.image6 {
+  width: 378px;
+  display: inline-block;
+  margin-bottom: 3.5px;
+  transition: 0.5s;
+}
+.image7 {
+  width: 378px;
+  display: inline-block;
+  margin-bottom: 3.5px;
+  transition: 0.5s;
+}
+.image8 {
+  width: 378px;
+  display: inline-block;
+  margin-left: 3.5px;
+  margin-right: 3.5px;
+  margin-bottom: 3.5px;
+  transition: 0.5s;
+}
+.image9 {
+  width: 378px;
+  display: inline-block;
+  margin-bottom: 3.5px;
+  transition: 0.5s;
+}
+.image1:hover {box-shadow: 0px 0px 16px 2px rgba(0,0,0,0.7);}
+.image2:hover {box-shadow: 0px 0px 16px 2px rgba(0,0,0,0.7);}
+.image3:hover {box-shadow: 0px 0px 16px 2px rgba(0,0,0,0.7);}
+.image4:hover {box-shadow: 0px 0px 16px 2px rgba(0,0,0,0.7);}
+.image5:hover {box-shadow: 0px 0px 16px 2px rgba(0,0,0,0.7);}
+.image6:hover {box-shadow: 0px 0px 16px 2px rgba(0,0,0,0.7);}
+.image7:hover {box-shadow: 0px 0px 16px 2px rgba(0,0,0,0.7);}
+.image8:hover {box-shadow: 0px 0px 16px 2px rgba(0,0,0,0.7);}
+.image9:hover {box-shadow: 0px 0px 16px 2px rgba(0,0,0,0.7);}
+.hovereffect h2, .hovereffect p.icon-links a {
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0,200%,0);
+  transform: translate3d(0,200%,0);
+}
+  .hovereffect:hover .overlay,
+  .hovereffect:hover h2,
+  .hovereffect:hover p.icon-links a {
+  	-webkit-transform: translate3d(0,0,0);
+  	transform: translate3d(0,0,0);
+  }
+  .hovereffect:hover h2 {
+  	-webkit-transition-delay: 0.05s;
+  	transition-delay: 0.05s;
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.5);
+  }
+  .hovereffect:hover p.icon-links a:nth-child(3) {
+  	-webkit-transition-delay: 0.1s;
+  	transition-delay: 0.1s;
+  }
+  .hovereffect:hover p.icon-links a:nth-child(2) {
+  	-webkit-transition-delay: 0.15s;
+  	transition-delay: 0.15s;
+  }
+  .hovereffect:hover p.icon-links a:first-child {
+  	-webkit-transition-delay: 0.2s;
+  	transition-delay: 0.2s;
+  }
+
+
+
+/*EINDTAG DESKTOP/ LAPTOP RESOLUTIE-------------------------------------------------------------------------------------------------------------------------------------*/
+}
+
+
+/*JAVA PARTICLES / HEADER IMAGE-------------------------------------------------------------------------------------------------------------------------------------------*/
+@media (min-width:1150px) {
+  .header_image {height: 450px;}
+  #particles-js{
+    width: 100%;
+    height: 450px;
+    background: transparent;
+    background-image: url('');
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    top: 0px;
+    position: absolute;
+    z-index: 1;
+    visibility: visible;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+  }
+@media (min-width:1250px) {#particles-js{height: 500px;}.header_image {height: 500px;}}
+@media (min-width:1400px) {#particles-js{height: 550px;}.header_image {height: 550px;}}
+@media (min-width:1550px) {#particles-js{height: 600px;}.header_image {height: 600px;}}
+@media (min-width:1700px) {#particles-js{height: 650px;}.header_image {height: 650px;}}
+@media (min-width:1850px) {#particles-js{height: 750px;}.header_image {height: 750px;}}
+@media (min-width:1900px) {#particles-js{height: 850px;}.header_image {height: 850px;}}
